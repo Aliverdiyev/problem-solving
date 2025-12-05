@@ -1,0 +1,21 @@
+14. Write a do-while loop that asks the user to enter two numbers. The numbers should be added and the sum displayed.
+The loop should ask the user whether he or she wishes to perform the operation again.
+If so, the loop should repeat; otherwise it should terminate.
+-------------------------------------------------------------------------------------------------------------
+15. Write a program in to array size to be user input print it
+Sample Output:
+    Enter the Array Limit = 4
+    Element of a[0] = 10
+    Element of a[1] = 20
+    Element of a[2] = 30
+    Element of a[3] = 40
+    Display Array Elements
+    10
+    20
+    30
+    40
+-------------------------------------------------------------------------------------------------------------
+16. Write a program to array elements print all Even number
+Sample Output:
+   Array = {23, 45, 89, 34, 12}
+   Even Array Elements = 34 12

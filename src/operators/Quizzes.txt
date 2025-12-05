@@ -1,0 +1,95 @@
+1. What is the output of the following application?  //false,false,true
+2. Which of the following method signatures is a valid declaration of an entry point in a Java application?
+public void main(String[] args)                  //false (static?)
+public static void main()                        //false (String[] args ?)
+private static void start(String[] mydata)       //false
+public static final void main(String[] mydata)   //true
+3. What is the proper filename extension for a Java bytecode compiled file?
+.java
+.bytecode
+.class        //true
+.dll
+4. Given that the current directory is /user/home, with an application Java file in
+/user/home/Manager.java that uses the default package, which are the correct commands to compile and run the application
+in Java?
+javac Manager java Manager
+javac Manager.java java Manager    //true
+javac Manager.java Manager.class
+javac Manager java Manager.class
+5. Which of the following is a valid code comment in Java?
+//////// Walk my dog      //true
+#! Go team!
+/ Process fails at runtime /
+None of the above
+6. What is the proper filename extension for a Java source file?
+.jav
+.class
+.source
+.java        //true
+7. Which of the following declarations does not compile?
+double num1, int num2 = 0;     //false (correct answer)
+int num1, num2;
+int num1, num2 = 0;
+int num1 = 0, num2 = 0;
+8. Which of the following is not a valid variable name?
+_blue
+2blue     //false (correct answer)
+blue$
+Blue
+9. Which of these class names best follows standard Java naming conventions?
+fooBar
+FooBar  //true
+FOO_BAR
+F_o_o_B_a_r
+10. Which is the first line to trigger a compiler error?
+double d1 = 5f;   //p1
+double d2 = 5.0;  //p2
+float f1 = 5f;    //p3
+float f2 = 5.0;   //p4  //false (correct answer)
+11. Which of the following lists of primitive types are presented in order from smallest to largest data type?
+byte, char, float, double   //true
+byte, char, double, float
+char, byte, float, double
+char, double, float, bigint
+12. Which of the following lists of primitive numeric types is presented in order from smallest to largest data type?
+byte, short, int, long  //true
+int, short, byte, long
+short, byte, int, long
+short, int, byte, long
+13. Given the following truth table, which operator for the boolean expressions x and y corresponds to this relationship?
+x = true y = true   =>  true
+x = true y = false  => false
+x = false y = true  => false
+x = false y = false => false
+--, ++, ||, &&(correct answer)
+14. Fill in the blanks: The _____________ operator increases the value of a variable by 1 and returns the new value,
+while the ___________ operator decreases the value of a variable by 1 and returns the original value.
+pre-increment [++v], pre-decrement [--v]
+pre-increment [++v], post-decrement [v--]   //true
+post-increment [v++], pre-decrement [--v]
+post-increment [v++], post-decrement [v--]
+15. What is the output of the following application?    //13
+16. What is the output of the following application?    //11
+17. What is the output of the following code snippet?   //11 5
+18. Given the following truth table, the boolean variables p and q, and the expression p ^ q, what are the missing
+values in the truth table, starting with the first column?   //true false
+p^q
+p = true q = true  =>  false
+p = false q = true =>  true
+(p = true q = false =>  true
+p = false q = false => false)
+19. What is the output of the following code snippet?   //true 20 false
+20. What is the output of the following code snippet?   //4 - 1
+21. What are the unique outputs of the following code snippet? (Choose all that apply.)
+//The code does not compile.
+//6.0
+//2
+22. What is the output of the following code?   //2, 0, 5
+23. What is the output of the following code snippet?   //true - true - false
+24. Given the following code snippet, what are the values of the variables after it is executed? (Choose all that apply.)
+//4 6
+25. Which of the following is not a valid code comment in Java?
+// Add 5 to the result
+/*** TODO: Fix bug 12312 ***/
+# Add configuration value   //false (correct answer)
+/* Read file from system ****/
